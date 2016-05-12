@@ -63,7 +63,14 @@ ul, ol {
     margin: 15px;
     margin-right: 0;
 }
+.warpper {
+    max-width: 1030px;
+    margin: 0 auto;
+}
 
+.block_container.warpper {
+    margin: 0 auto;
+}
 .fix {
     overflow: hidden;
 }
@@ -90,7 +97,6 @@ ul, ol {
 }
 
 header {
-    width: 940px;
     margin: 0 auto;
     background: #fff none repeat scroll 0 0;
     position: relative;
@@ -185,17 +191,19 @@ header {
     background-size: cover;
     height: 640px;
 }
+.for_text {
+    position: relative;
+    top: 0;
+    left: 0;
+}
 
 .first_block_text {
-    position: relative;
-    max-width: 600px;
+    max-width: 100%;
 }
 
 .first_block_info {
-    max-width: 100%;
     color: #fff;
     position: absolute;
-    left: 28%;
     top: 200px;
 }
 
@@ -228,23 +236,24 @@ button {
 }
 
 .second_content {
-    max-width: 940px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 .second_left {
     float: left;
     width: 55%;
-    padding: 20px 0 0 40px;
+    padding: 20px 0 0;
     box-sizing: border-box;
 }
 
 .left_block {
+
+    width: 80%;
 }
 
 .left_block_info {
-    max-width: 95%;
-    padding: 20px 20px 20px 10px;
+    max-width: 100%;
 }
 
 .second_left .left_block_info h1 {
@@ -295,7 +304,7 @@ button {
 }
 
 .right_block_info {
-    padding-left: 10%;
+    padding-left: 15%;
     box-sizing: border-box;
 }
 
@@ -383,21 +392,22 @@ p.text2 {
 }
 
 .fourth_content {
-    max-width: 940px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 .fourth_left {
     float: left;
     width: 55%;
-    padding: 20px 0 0 40px;
+    padding: 20px 0 0;
     box-sizing: border-box;
 }
 .fourth .fourth_content .left_block {
     margin-top: 30px;
+    width: 80%;
 }
 .fourth_left .left_block_info {
-    max-width: 93%;
+    max-width: 91%;
 }
 
 .fourth_left .left_block_info h1 {
@@ -531,7 +541,7 @@ p.text2 {
 }
 
 .bottom_block {
-    max-width: 77%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -593,7 +603,6 @@ p.text2 {
 
 .seventh {
     background: #fff;
-    max-height: 640px;
 }
 
 .carousel_top {
@@ -750,7 +759,7 @@ small.author {
 }
 
 .top360 {
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -760,7 +769,7 @@ small.author {
 }
 
 .topleft360 .left_block {
-    padding-left: 10%;
+    padding-left: 0;
 }
 
 .topleft360 .left_block_info h1 {
@@ -798,7 +807,7 @@ small.author {
 }
 
 .bottom360 {
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -937,14 +946,25 @@ footer {
     color: #fff;
     background-color: #1f636a;
 }
-
+.container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
 .row {
     margin-right: 0;
+    margin-left: 0;
 }
 
 .carousel-inner>.active {
 }
 
+/*@media only screen and (min-width: 1278px) {
+    .first_block_info {
+        left: 26%;
+    };
+
+}*/
 /*@media screen and (max-width: 960px) {
 .arrow_right {
 	right: -33% !important;
