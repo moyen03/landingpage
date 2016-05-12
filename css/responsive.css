@@ -1,0 +1,70 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .selectnav {
+        display: none;
+    }
+
+    #nav {
+        display: inline-table;
+    };
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.first {
+    background-image: url("../images/block1md.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+}
+
+.first_block_info {
+    color: #fff;
+    position: absolute;
+    left: 13%;
+    top: 25%;
+}
+
+.maintext {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 72px;
+}
+
+.subtext {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+button {
+    display: block;
+    margin-top: 50px;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 45%;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .selectnav {
+        display: block;
+    }
+
+    #nav {
+        display: none;
+    };
+}
