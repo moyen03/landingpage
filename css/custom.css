@@ -959,36 +959,6 @@ footer {
 .carousel-inner>.active {
 }
 
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-    .second_left,
-    .second_right,
-    .fourth_left,
-    .fourth_right,
-    .topleft360,
-    .topright360 {
-        width: 100%;
-    };
-    .second_content.left_block,
-    .second_content.right_block,
-    .fourth_content.left_block,
-    .fourth_content.right_block,{
-        margin: 0 auto;
-    };
-    .left_block_info {
-        margin: 0 auto;
-    };
-    .right_block_info {
-        padding-left: 0;
-    };
-    .promo_area.single_promo {
-        width: 50%;
-        margin: 0 auto;
-    };
-    #form1>.form_field {
-        width: 45%;
-    };
-
-}
 /*@media screen and (max-width: 960px) {
 .arrow_right {
 	right: -33% !important;
