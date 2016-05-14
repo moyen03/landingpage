@@ -1,4 +1,17 @@
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+    .first_block_info, .left_block {
+        padding-left: 10px;
+    }
+
+    .maintext {
+        font-size: 30px;
+    }
+
+    button {
+        width: 60% !important;
+    }
+
     .second_left,
     .second_right,
     .fourth_left,
@@ -13,29 +26,95 @@
     .fourth_content.right_block,{
         margin: 0 auto;
     }
+
+    .left_block {
+        width: 100%;
+    }
+
     .left_block_info {
         margin: 0 auto;
     }
     .right_block_info {
-        padding-left: 0;
+        padding-left: 10px;
+    }
+
+    .left_img1,
+    .left_img2,
+    .left_img3,
+    .fourth_left_img1,
+    .fourth_left_img2,
+    .fourth_left_img3 {
+        margin-right: 10px;
+    }
+
+    .third_block_info,
+    .fifth_block_info {
+        top: 0;
+    }
+
+    .maintext3,
+    .maintext5 {
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .subtext3,
+    .subtext5 {
+        font-size: 14px;
+        width: 60%
+    }
+
+    .third_block_info button,
+    .fifth_button {
+        margin-top: 100px;
+    }
+    .top_block p {
+        display: none;
+    }
+    .fourth .fourth_content .left_block {
+        width: 100%
+    }
+
+    .fourth_left .left_block_info h1 {
+        font-size: 30px;
+    }
+
+    .fourth_text_block {
+        width: 70%;
     }
     .promo_area .single_promo {
-        width: 60%;
+        width: 90%;
         margin: 0 auto 10px 0;
         padding: 10px;
     }
+
+    .caro {
+        font-size: 30px;
+    }
+    .topleft360 .left_block,
+    .form_area {
+        padding-left: 10px;
+    }
+    .form_field input[type="submit"] {
+        letter-spacing: 0;
+        left: 0;
+    }
+
     .form_field {
         width: 45%;
     }
-    button {
-        width: 100%;
-    }
+
     .item p {
     width: 100%;
     margin: 0 auto;
-    line-height: 5px;
-    font-size: 12px;
+    line-height: 30px;
+    font-size: 14px;
     padding-bottom: 15px;
     }
-
+    .carousel-control.left {
+        left: -10%;
+    }
+    .carousel-control.right {
+        right: -10%;
+    }
 }

@@ -615,6 +615,7 @@ p.text2 {
     line-height: 22px;
     color: #000;
     letter-spacing: 0.4px;
+    font-weight: 300;
 }
 
 .qout_icon {
