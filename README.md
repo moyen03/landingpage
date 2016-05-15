@@ -1,4 +1,4 @@
 # landingpage
 
 
-Currently it's only for Desktop version. I will update for mobile also. 
+Responsive Landing page although it's in progress...
