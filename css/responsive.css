@@ -37,6 +37,9 @@
     .right_block_info {
         padding-left: 10px;
     }
+    .text_block p {
+        width: 350px;
+    }
 
     .left_img1,
     .left_img2,
@@ -54,14 +57,16 @@
 
     .maintext3,
     .maintext5 {
-        font-size: 30px;
-        width: 80%;
+        font-size: 35px;
+        width: 100%;
+        line-height: 45px;
     }
 
     .subtext3,
     .subtext5 {
-        font-size: 14px;
-        width: 60%
+        font-size: 16px;
+        width: 100%;
+        line-height: 25px;
     }
 
     .third_block_info button,
@@ -81,6 +86,12 @@
 
     .fourth_text_block {
         width: 70%;
+    }
+    .text_block p {
+        width: 100% !important;
+    }
+    .fourth_text_block p {
+        width: 100% !important;
     }
     .single_promo {
         width: 90%;
@@ -130,7 +141,7 @@
         font-size: 35px;
     }
 
-    .first_button {
+    .first_button, .fifth_button {
         width: 60%;
     }
 
@@ -160,7 +171,10 @@
         padding-left: 10px;
     }
     .text_block p {
-        width: 385px;
+        width: 100% !important;
+    }
+    .fourth_text_block p {
+        width: 100% !important;
     }
     .left_img1,
     .left_img2,
@@ -176,17 +190,18 @@
         top: 0;
     }
 
-    .maintext3,
-    .maintext5 {
-        font-size: 35px;
-        width: 70%;
-    }
+    .maintext3, .maintext5 {
+    font-size: 40px;
+    width: 100%;
+    line-height: 50px;
+}
 
-    .subtext3,
-    .subtext5 {
-        font-size: 14px;
-        width: 65%
-    }
+    .subtext3, .subtext5 {
+    font-size: 16px;
+    width: 90%;
+    margin-top: 50px;
+    line-height: 25px;
+}
 
     .third_block_info button,
     .fifth_button {
@@ -204,14 +219,11 @@
     }
 
     .fourth_text_block {
-        width: 80%;
-    }
-    .fourth_text_block p {
-        width: 300px;
+        width: 70%;
     }
     .single_promo {
-        width: 65%;
-        margin: 0 auto 10px 60px;
+        width: 92%;
+        margin: 0 auto 10px 0px;
         padding: 10px;
     }
 
@@ -228,7 +240,7 @@
     }
 
     .form_field {
-        width: 48%;
+        width: 46%;
     }
 
     .item p {
