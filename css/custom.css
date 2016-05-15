@@ -956,35 +956,3 @@ footer {
     margin-right: 0;
     margin-left: 0;
 }
-
-.carousel-inner>.active {
-}
-
-/*@media screen and (max-width: 960px) {
-.arrow_right {
-	right: -33% !important;
-};
-
-}
-
-@media screen and (min-width: 767px) {
-.arrow_right {
-	right: 90% !important;
-};
-
-}
-
-@media screen and (min-width: 1024px) {
-.arrow_right {
-	right: 80% !important;
-};
-
-}
-
-@media screen and (min-width: 1279px) {
-.arrow_right {
-	right: 70% !important;
-};
-
-}*/
-
